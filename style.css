@@ -48,6 +48,7 @@ body {
   width: 552px;
   height: 450px;
   gap: 32px;
+  padding: 0 8px 0;
 }
 
 .top-header-box {
@@ -1064,7 +1065,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  width: 1120px;
+  width: 1104px;
   height: 673px;
   gap: 16px;
 }
@@ -1149,6 +1150,7 @@ hr {
 
 .row1-bottom-content {
   display: flex;
+  width: 1104px;
   gap: 136px;
 }
 
@@ -1210,6 +1212,7 @@ hr {
   background-color: #17494d;
   display: flex;
   align-items: center;
+  font-weight: var(--text-weight-secondary);
   width: 134.16px;
   height: 48px;
   padding: 10px 25.16px 10px 26px;

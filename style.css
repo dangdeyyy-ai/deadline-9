@@ -23,6 +23,14 @@ body {
   display: flex;
   justify-content: center;
   height: 753px;
+  position: relative;
+}
+
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: absolute;
+  top: 174px;
 }
 
 .header-content {
@@ -32,7 +40,6 @@ body {
   width: 1104px;
   height: 515px;
   gap: 100px;
-  margin-top: 174px;
 }
 
 .header-content-box {
@@ -755,7 +762,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1104px;
+  width: 1088px;
   height: 640.98px;
   gap: 38.5px;
 }
@@ -1266,4 +1273,8 @@ hr {
   font-weight: var(--text-weight-primary);
   font-size: 12px;
   line-height: 28px;
+}
+
+a {
+  color: #17494d;
 }

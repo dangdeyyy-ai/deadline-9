@@ -23,7 +23,6 @@ body {
   display: flex;
   justify-content: center;
   height: 753px;
-  padding: 174px 168px 64px 168px;
 }
 
 .header-content {
@@ -33,6 +32,7 @@ body {
   width: 1104px;
   height: 515px;
   gap: 100px;
+  margin-top: 174px;
 }
 
 .header-content-box {

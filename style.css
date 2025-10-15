@@ -874,7 +874,7 @@ body {
 
 .main-box-row4 {
   display: flex;
-  width: 490.66px;
+  width: 475px;
   height: 136px;
   padding: 32px 8.03px 14px 8px;
   gap: 16px;
@@ -1051,7 +1051,7 @@ body {
 .footer-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   width: 1120px;
   height: 673px;
@@ -1182,6 +1182,7 @@ hr {
 }
 
 .middle-row1-text {
+  background-color: #f8f9f9;
   color: #c2c8cc;
   font-weight: var(--text-weight-primary);
   display: flex;
@@ -1191,6 +1192,7 @@ hr {
   width: 309.84px;
   height: 48px;
   padding: 14px 12px;
+  border: 1px solid #68737d;
 }
 
 .middle-row1-btn {
